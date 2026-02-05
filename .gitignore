@@ -1,3 +1,5 @@
+postgres_data
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -5,12 +7,9 @@ build/
 !**/src/test/**/build/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+gen
+.idea
 *.iws
-*.iml
 *.ipr
 out/
 !**/src/main/**/out/
